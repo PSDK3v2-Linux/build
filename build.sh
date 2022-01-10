@@ -10,7 +10,7 @@ mkdir -p build || { echo "ERROR: Could not create the build directory."; exit 1;
 cd build || { echo "ERROR: Could not enter the build directory."; exit 1; }
 
 ## Fetch the build scripts.
-BUILD_SCRIPTS=`ls /scripts/*.sh | sort`
+BUILD_SCRIPTS=`ls ../scripts/*.sh | sort`
 
 ## If specific steps were requested...
 if [ $1 ]; then
