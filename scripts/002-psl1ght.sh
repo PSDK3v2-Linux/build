@@ -2,7 +2,7 @@
 # psl1ght.sh by Naomi Peori (naomi@peori.ca)
 
 ## Download the source code.
-wget --no-check-certificate https://github.com/rhynec/PSL1GHT/archive/8af60451d71a43e3473f21f5e334b8b74dc8d8f8.tar.gz -O psl1ght.tar.gz
+wget --no-check-certificate https://github.com/rhynec/PSL1GHT/archive/f42c552a7977b84aaffa7e5d57a6f7784952f1a3.tar.gz -O psl1ght.tar.gz
 
 ## Unpack the source code.
 rm -Rf psl1ght && mkdir psl1ght && tar --strip-components=1 --directory=psl1ght -xvzf psl1ght.tar.gz
